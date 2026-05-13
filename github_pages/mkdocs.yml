@@ -1,0 +1,37 @@
+site_name: Lethe Custom Boss Guide
+site_url: https://AIGhostWriter.github.io/Lethe-custom-boss-guide
+site_description: A guide to creating custom boss encounters in Limbus Company using the Lethe modding framework.
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep orange
+    accent: amber
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - English:
+    - "Chapter 1 — Finding Boss Data": chapter1_EN.md
+    - "Chapter 2 — Creating an Encounter": chapter2_EN.md
+    - "Chapter 3 — Advanced Lua": chapter3_EN.md
+  - 한국어:
+    - "챕터 1 — 보스 정보 찾기": chapter1_KR.md
+    - "챕터 2 — 인카운터 제작": chapter2_KR.md
+    - "챕터 3 — Lua 심화": chapter3_KR.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
