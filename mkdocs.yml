@@ -1,0 +1,35 @@
+site_name: Lethe Custom Boss Guide
+site_url: https://AIGhostWriter.github.io/Lethe-custom-boss-guide
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep orange
+    accent: amber
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+
+docs_dir: .
+exclude_docs: |
+  github_pages/
+  .github/
+  .gitignore
+
+nav:
+  - Home: README.md
+  - English:
+    - "Chapter 1 — Finding Boss Data": chapter1_EN.md
+    - "Chapter 2 — Creating an Encounter": chapter2_EN.md
+    - "Chapter 3 — Advanced Lua": chapter3_EN.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
