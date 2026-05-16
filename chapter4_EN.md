@@ -552,6 +552,8 @@ All `patternList` entries have 682001200 in slot 0 as a safe default in case the
 
 ## 8. Lua — 광역 난사 (Area Barrage)
 
+<video src="https://github.com/AIGhostWriter/Lethe_Guide/raw/main/KakaoTalk_20260516_162012462.mp4" controls width="100%"></video>
+
 ### 8-1. Why Lua Is Needed Here
 
 `광역 난사` (682001200) has 9 coins. The S2 animation has 3 frames. Coins 0–6 should play a random frame each hit. JSON has no `random()` function — Lua is required.
