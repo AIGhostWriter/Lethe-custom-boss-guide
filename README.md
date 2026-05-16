@@ -8,6 +8,8 @@ A guide to creating custom boss encounter mods for **Limbus Company** using the 
 | [Chapter 2](chapter2_EN.md) | Building the full encounter mod |
 | [Chapter 3](chapter3_EN.md) | Advanced Lua scripting |
 | [Chapter 4](chapter4_EN.md) | Complete sample: Soji Abi (소지아비) |
+
+# Lethe Custom ID Guide
 | [Custom ID Guide](Lethe_Custom_ID_Guide_EN.md) | Creating a playable Identity mod |
 
 ---
