@@ -24,6 +24,7 @@ nav:
     - "Chapter 1 — Finding Boss Data": chapter1_EN.md
     - "Chapter 2 — Creating an Encounter": chapter2_EN.md
     - "Chapter 3 — Advanced Lua": chapter3_EN.md
+    - "Chapter 4 — Sample Boss: Soji Abi": chapter4_EN.md
 
 markdown_extensions:
   - admonition
